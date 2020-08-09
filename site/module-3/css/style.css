@@ -1,0 +1,43 @@
+
+h1 {
+  color: black;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.main-content > h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+.container-fluid {
+  padding: 20px;
+  background-color: gray;
+}
+
+#header-nav {
+  background-color: gray;
+}
+
+#collapsable-nav {
+  padding-bottom: px;
+}
+
+.navbar-default .navbar-brand {
+  font-size: 2em;
+  color: black;
+  font-weight: 700;
+}
+
+.heading {
+  text-align:center;
+  font-weight: 700;
+}
+
+.dishes {
+  background-color: gray;
+  padding: 10px 20px;
+  margin-bottom: 25px;
+}
+
