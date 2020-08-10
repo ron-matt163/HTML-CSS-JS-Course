@@ -6,9 +6,11 @@ h1 {
   color: black;
   font-weight: 700;
   margin-left: 20px;
+  float:left;
 }
 
 .main-content > h1 {
+  float: none;
   padding-bottom: 20px;
   font-weight: 400;
 }
@@ -57,4 +59,12 @@ section div.container
 
 nav div.container 
 { width: 100%; }
+
+
+@media (max-width: 767px) {
+  .navbar-toggle {
+    margin-top:20px;
+    margin-bottom: 25px;
+  }
+}
 
