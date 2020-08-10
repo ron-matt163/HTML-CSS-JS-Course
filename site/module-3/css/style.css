@@ -1,3 +1,6 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
 
 h1 {
   color: black;
@@ -30,6 +33,10 @@ h1 {
   font-weight: 700;
 }
 
+.navbar-default .navbar-toggle {
+    border-color: black;
+}
+
 .heading {
   text-align:center;
   font-weight: 700;
@@ -39,6 +46,10 @@ h1 {
   background-color: gray;
   padding: 10px 20px;
   margin-bottom: 25px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
 }
 
 section div.container 
