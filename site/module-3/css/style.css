@@ -6,7 +6,6 @@ h1 {
 }
 
 .main-content > h1 {
-  text-align: center;
   padding-bottom: 20px;
   font-weight: 400;
 }
@@ -21,12 +20,13 @@ h1 {
 }
 
 #collapsable-nav {
-  padding-bottom: px;
+  padding-bottom: 10px;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default {
   font-size: 2em;
   color: black;
+  border-color: black;
   font-weight: 700;
 }
 
@@ -40,4 +40,10 @@ h1 {
   padding: 10px 20px;
   margin-bottom: 25px;
 }
+
+section div.container 
+{ width: 99%; } 
+
+nav div.container 
+{ width: 100%; }
 
